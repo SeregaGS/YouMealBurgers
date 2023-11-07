@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>You Meal - Сочные бургеры</title>
+  </head>
+  <body>
+    <header class="header-top">
+      <div class="header-top-wrap wrap">
+        <a class="header-logo-link" href="#"
+          ><img src="img/logo/Group 7(1).svg" alt=""
+        /></a>
+        <div class="header-top-hero">
+          <div class="header-top-hero-descr">
+            <h1 class="header-top-hero--title">
+              Только самые <span>сочные бургеры!</span>
+            </h1>
+            <p class="header-top-hero--description">
+              Бесплатная доставка от 599₽
+            </p>
+          </div>
+          <img class="header-top-hero--logo" src="img/logo/pic.svg" alt="" />
+        </div>
+      </div>
+    </header>
+    <main class="wrap">
+      <nav class="navigation-menu">
+        <ul class="navigation-menu-list">
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link active" href="">
+              <span class="list-item--bergers"></span>Бургеры
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--snacks"></span>Закуски
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--hotdogs"></span>Хот-доги
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--combo"></span>Комбо
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--shawerma"></span>Шаурма
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--pizza"></span>Пицца
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--wok"></span>Вок
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--desert"></span>Десерты
+            </button>
+          </li>
+          <li class="navigation-menu-list--item">
+            <button class="navigation-menu-list--link" href="">
+              <span class="list-item--sous"></span>Соусы
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="main">
+        <aside class="carts menu-width">
+          <header class="carts-header">
+            <h2 class="carts-header--title">Корзина</h2>
+            <p class="carts-header--length">4</p>
+          </header>
+          <ul class="menu-list">
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Вечная классика</h3>
+                <p class="menu-list-item--price">450</p>
+                <span class="menu-list-item--weight">450</span>
+              </div>
+              <div class="button">
+                <button
+                  id="minus"
+                  type="button"
+                  class="menu-list-item--btn btn">
+                  -
+                </button>
+                <span id="coinsF" class="menu-list-item--length">1</span>
+                <button
+                  id="plusS"
+                  type="button"
+                  class="menu-list-item--btn btn">
+                  +
+                </button>
+              </div>
+              <img
+                class="menu-list-item--img"
+                src="img/menu-img/burgers/photo(5).jpg"
+                alt="" />
+            </li>
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Мясная бомба</h3>
+                <p class="menu-list-item--price">689</p>
+                <span class="menu-list-item--weight">520</span>
+              </div>
+              <div class="button">
+                <button type="button" class="menu-list-item--btn btn">-</button>
+                <span class="menu-list-item--length">1</span>
+                <button type="button" class="menu-list-item--btn btn">+</button>
+              </div>
+              <img
+                class="menu-list-item--img"
+                src="img/menu-img/burgers/photo(1).jpg"
+                alt="" />
+            </li>
+          </ul>
+          <footer class="cart-footer">
+            <div class="cart-footer-sum">
+              <p class="cart-footer-sum--total">Итого</p>
+              <p class="cart-footer-sum--price"></p>
+            </div>
+            <button class="cart-footer-button btn">Оформить заказ</button>
+            <p class="cart-footer--delivery">Бесплатная доставка</p>
+          </footer>
+        </aside>
+        <section class="menu">
+          <h2 class="menu-title">Бургеры</h2>
+          <ul class="menu-list">
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Мясная бомба</h3>
+                <p class="menu-list-item--price">689</p>
+                <span class="menu-list-item--weight">520</span>
+              </div>
+              <div class="button">
+                <button type="button" class="menu-list-item--btn btn">-</button>
+                <span class="menu-list-item--length">1</span>
+                <button type="button" class="menu-list-item--btn btn">+</button>
+              </div>
+              <img
+                class="menu-list-item--img"
+                src="img/menu-img/burgers/photo(1).jpg"
+                alt="" />
+            </li>
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Супер сырный</h3>
+                <p class="menu-list-item--price">550</p>
+                <span class="menu-list-item--weight">512</span>
+              </div>
+              <div>
+                <button disabled type="button" class="menu-list-item--btn btn">
+                  Добавить
+                </button>
+              </div>
+              <img
+                class="menu-list-item--img"
+                src="img/menu-img/burgers/photo(2).jpg"
+                alt="" />
+            </li>
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Сытный</h3>
+                <p class="menu-list-item--price">639</p>
+                <span class="menu-list-item--weight">580</span>
+              </div>
+              <button type="button" class="menu-list-item--btn btn">
+                Добавить
+              </button>
+              <img
+                class="menu-list-item--img"
+                src="mg/menu-img/burgers/photo(3).jpg"
+                alt="" />
+            </li>
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Тяжелый удар</h3>
+                <p class="menu-list-item--price">480</p>
+                <span class="menu-list-item--weight">470</span>
+              </div>
+              <button type="button" class="menu-list-item--btn btn">
+                Добавить
+              </button>
+              <img
+                class="menu-list-item--img"
+                src="img/menu-img/burgers/photo(4).jpg"
+                alt="" />
+            </li>
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Вечная классика</h3>
+                <p class="menu-list-item--price">450</p>
+                <span class="menu-list-item--weight">450</span>
+              </div>
+              <button type="button" class="menu-list-item--btn btn">
+                Добавить
+              </button>
+              <img
+                class="menu-list-item--img"
+                src="img/menu-img/burgers/photo(5).jpg"
+                alt="" />
+            </li>
+            <li class="menu-list-item menu-width">
+              <div class="menu-list-item-head">
+                <h3 class="menu-list-item--title">Итальянский</h3>
+                <p class="menu-list-item--price">560</p>
+                <span class="menu-list-item--weight">510</span>
+              </div>
+              <button type="button" class="menu-list-item--btn btn">
+                Добавить
+              </button>
+              <img
+                class="menu-list-item--img"
+                src="img/menu-img/burgers/photo.jpg"
+                alt="" />
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrap footer-main">
+        <a class="footer-main-logo-link" href=""
+          ><img class="footer--main-logo-img" src="img/logo/Group 7.svg" alt=""
+        /></a>
+        <div class="footer-main-call">
+          <p class="footer-main-call--desrc">Номер для заказа</p>
+          <a class="footer-main-call--telephone" href="tel:+79308333811"
+            >+7(930)833-38-11</a
+          >
+        </div>
+        <div class="footer-social">
+          <h2 class="footer-social--title">Мы в соцсетях</h2>
+          <ul class="footer-social-list">
+            <li class="footer-list--item">
+              <a class="footer-list--item-link" href=""
+                ><img
+                  class="footer-list--item-img"
+                  src="img/social/Vector(1).svg"
+                  alt=""
+              /></a>
+            </li>
+            <li class="footer-list--item">
+              <a class="footer-list--item-link" href=""
+                ><img
+                  class="footer-list--item-img"
+                  src="img/social/Vector.svg"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let navItems = document.querySelectorAll(".navigation-menu-list--link");
+
+      navItems.forEach((navItem) => {
+        navItem.addEventListener("click", () => {
+          removeActiveClasses();
+          navItem.classList.add("active");
+        });
+      });
+      function removeActiveClasses() {
+        navItems.forEach((navItem) => {
+          navItem.classList.remove("active");
+        });
+      }
+
+      //    let panels = document.querySelectorAll(".panel");
+      //panels.forEach(function (panel) {
+      //  panel.addEventListener("click", function () {
+      //    removeActiveClasses();
+      //    panel.classList.add("active");
+      //  });
+      //});
+      // function removeActiveClasses() {
+      //   panels.forEach((panel) => {
+      //     panel.classList.remove("active");
+      //  });
+      // }
+      //
+    </script>
+  </body>
+</html>
