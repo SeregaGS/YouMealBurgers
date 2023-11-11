@@ -268,34 +268,6 @@
         <p>Design: Anastasia Ilina</p>
       </div>
     </footer>
-    <script>
-      let navItems = document.querySelectorAll(".navigation-menu-list--link");
-
-      navItems.forEach((navItem) => {
-        navItem.addEventListener("click", () => {
-          removeActiveClasses();
-          navItem.classList.add("active");
-        });
-      });
-      function removeActiveClasses() {
-        navItems.forEach((navItem) => {
-          navItem.classList.remove("active");
-        });
-      }
-
-      //    let panels = document.querySelectorAll(".panel");
-      //panels.forEach(function (panel) {
-      //  panel.addEventListener("click", function () {
-      //    removeActiveClasses();
-      //    panel.classList.add("active");
-      //  });
-      //});
-      // function removeActiveClasses() {
-      //   panels.forEach((panel) => {
-      //     panel.classList.remove("active");
-      //  });
-      // }
-      //
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
