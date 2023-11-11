@@ -72,6 +72,7 @@ button {
   height: 900px;
   border-radius: 50%;
   background-color: var(--color-yellow);
+  overflow-x: hidden;
 }
 .header-top-wrap {
   position: relative;
