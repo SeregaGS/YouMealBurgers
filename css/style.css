@@ -481,14 +481,61 @@ button {
     width: 96vw;
   }
 }
-@media (max-width: 1000px) {
-  .header-top-hero--logo {
-    width: 250px;
+@media (max-width: 1024px) {
+  .wrap {
+    width: 95vw;
   }
   .header-top::before {
-    left: -10%;
-    top: -442px;
-    width: 122%;
+    left: -32%;
+    top: -380px;
+    width: 165%;
     height: 831px;
+  }
+  .footer-main-call {
+    margin-right: 50px;
+  }
+  .footer-social {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-top {
+    height: 348px;
+    margin-bottom: 30px;
+  }
+  .header-top::before {
+    left: -52%;
+    top: -484px;
+    width: 201%;
+  }
+  .header-top-hero-descr {
+    max-width: 325px;
+  }
+  .header-top-hero--logo {
+    width: 227px;
+  }
+  .header-top-hero--title {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 26px;
+  }
+  .header-top-hero--description {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .navigation-menu-list--link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .navigation-menu {
+    margin-bottom: 30px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .menu-title {
+    position: relative;
+    top: 0;
   }
 }
