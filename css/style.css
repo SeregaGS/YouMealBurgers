@@ -62,6 +62,7 @@ button {
   height: 466px;
   text-align: center;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 .header-top::before {
   content: "";
@@ -72,7 +73,6 @@ button {
   height: 900px;
   border-radius: 50%;
   background-color: var(--color-yellow);
-  overflow-x: hidden;
 }
 .header-top-wrap {
   position: relative;
