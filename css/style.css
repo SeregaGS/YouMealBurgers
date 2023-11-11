@@ -538,6 +538,9 @@ footer {
   .header-top-hero-descr {
     max-width: 325px;
   }
+  .header-top-hero--title {
+    width: auto;
+  }
   .header-top-hero--logo {
     width: 227px;
   }
@@ -550,6 +553,10 @@ footer {
     font-size: 12px;
     line-height: 16px;
   }
+  .header-logo-link {
+    margin-bottom: 30px;
+  }
+
   .navigation-menu-list {
     gap: 12px;
   }
@@ -666,17 +673,7 @@ footer {
     margin-bottom: 8px;
   }
 }
-
-@media (max-width: 320px) {
-  .wrap {
-    width: 96vw;
-  }
-  .header-top {
-    height: 372px;
-  }
-  .header-top::before {
-    top: -459px;
-  }
+@media (max-width: 476px) {
   .header-logo-link {
     margin-bottom: 10px;
   }
@@ -701,6 +698,18 @@ footer {
   .header-top-hero--logo {
     width: 176px;
   }
+}
+@media (max-width: 320px) {
+  .wrap {
+    width: 96vw;
+  }
+  .header-top {
+    height: 372px;
+  }
+  .header-top::before {
+    top: -459px;
+  }
+
   .menu-width {
     min-width: 100%;
   }
