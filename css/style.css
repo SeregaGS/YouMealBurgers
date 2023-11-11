@@ -21,6 +21,10 @@ body {
   font-family: "Nunito", sans-serif;
   background-color: var(--color-ligtgray);
   overflow-x: hidden;
+  color: #000000;
+}
+button {
+  color: inherit;
 }
 .wrap {
   max-width: 1440px;
