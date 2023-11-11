@@ -423,12 +423,15 @@ button {
 /* Footer */
 .footer {
   background-color: var(--color-white);
+  padding: 52px 0;
 }
 .footer-main {
   display: flex;
   justify-content: space-between;
-  padding: 52px 0;
+  padding: 0;
+  margin-bottom: 45px;
 }
+
 .footer-main-logo-link {
   display: inline-block;
 }
@@ -482,6 +485,10 @@ button {
 }
 .footer-list--item-link {
   display: inline-block;
+}
+.footer-copyright {
+  font-size: 12px;
+  line-height: 16px;
 }
 
 /* media */
@@ -563,9 +570,9 @@ button {
   .carts-header--title {
     font-size: 16px;
     line-height: 16px;
-    margin: 0 0 16px 0;
+    margin: 0;
   }
-  .carts-header--none {
+  .carts-header-cart-none {
     display: none;
   }
   .menu-list {
@@ -650,5 +657,85 @@ button {
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrap {
+    width: 96vw;
+  }
+  .header-top {
+    height: 372px;
+  }
+  .header-top::before {
+    top: -459px;
+  }
+  .header-logo-link {
+    margin-bottom: 10px;
+  }
+  .header-top-hero {
+    flex-direction: column;
+  }
+  .header-top-hero-descr {
+    margin: 0;
+    max-width: 100%;
+
+    text-align: center;
+  }
+  .header-top-hero--logo {
+    order: 2;
+  }
+  .header-top-hero--title {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .header-top-hero--logo {
+    width: 176px;
+  }
+  .menu-width {
+    min-width: 100%;
+  }
+  .menu-title {
+    margin-bottom: 16px;
+  }
+  .menu-list .menu-list-item.menu-width {
+    max-width: 145px;
+    min-width: auto;
+  }
+  .menu-list {
+    gap: 10px;
+  }
+  .carts {
+    padding: 10px;
+  }
+  .footer-main-call {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+  .footer-social {
+    margin: 0;
+  }
+  .footer-main-logo-link {
+    margin: 0 0 18px 0;
+  }
+  .footer {
+    background-color: var(--color-white);
+    padding: 24px 0;
+  }
+  .footer-main {
+    margin-bottom: 32px;
+  }
+  .carts .menu-list .menu-list-item.menu-width {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .carts .menu-list {
+    margin-top: 8px;
+  }
+  .cart-footer-button {
+    font-size: 12px;
+    padding: 9px 0;
   }
 }
