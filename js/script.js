@@ -11,3 +11,25 @@ function removeActiveClasses() {
     navItem.classList.remove("active");
   });
 }
+
+let NavMenuLis = document.querySelectorAll(".navigation-menu-list--item");
+let MenusMain = [
+  {
+    title: "Бургеры",
+  },
+  {
+    title: "Закуски",
+  },
+];
+
+NavMenuLis.forEach((NavMenuLi) => {
+  let NavMenuLiId = NavMenuLi.id;
+
+  NavMenuLi.addEventListener("click", () => {
+    if ((id = NavMenuLi)) {
+      let menutitle = document.querySelector(".menu-title");
+
+      menutitle.innerHTML = "";
+    }
+  });
+});
